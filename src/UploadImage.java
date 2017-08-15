@@ -15,7 +15,7 @@ import java.util.List;
 @WebServlet(name = "UploadImage", urlPatterns = "/uploadImage")
 public class UploadImage extends HttpServlet {
 
-    private static final String IMAGE_DIRECTORY = "/home/elektroniker/JavaPractice/Web/InstClone/web/images/";
+    private static final String IMAGE_DIRECTORY =""; //full path to the image directory
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
