@@ -13,7 +13,7 @@ import java.sql.SQLException;
 @WebServlet(name = "ImagePage", urlPatterns = "/imagePage")
 public class ImagePage extends HttpServlet {
 
-    private static final String IMAGE_DIRECTORY ="/home/elektroniker/JavaPractice/Web/InstClone/web/" ;
+    private static final String IMAGE_DIRECTORY ="" ; //full path to the image directory
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
