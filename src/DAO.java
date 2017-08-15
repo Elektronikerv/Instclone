@@ -3,9 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DAO {
-    private static String USER = "root";
-    private static String URL = "jdbc:mysql://localhost:3306/Inst";
-    private static String PASSWORD = "root";
+    private static String USER = "";
+    private static String URL = "";
+    private static String PASSWORD = "";
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
