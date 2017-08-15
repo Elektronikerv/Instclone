@@ -1,0 +1,40 @@
+
+body {
+    overflow: hidden;
+    background: #FAFAFA;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding:5px;
+    margin: 3px 0;
+    border:2px solid #ccc;
+    color: black;
+
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color: mediumslateblue;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 360px;
+}
+
+.center {
+    width: 400px;
+    padding: 10px;
+    margin: 10% 35%;
+    background: #e6e6e6;
+}
+
+.container {
+    padding: 10px 20px;
+}
